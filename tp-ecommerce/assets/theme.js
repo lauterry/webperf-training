@@ -3788,7 +3788,7 @@ theme.SearchResultsTemplate = (function () {
 
 		return [
 			'<div class="placeholder-background placeholder-background--animation" data-image-placeholder aria-hidden="true"></div>',
-			'<img class="predictive-search-item__image lazyload" src="' +
+			'<img loading="lazy" class="predictive-search-item__image lazyload" src="' +
 				product.image.url +
 				'" data-src="' +
 				product.image.url +
